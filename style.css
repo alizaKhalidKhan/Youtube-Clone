@@ -1,0 +1,166 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(248, 248, 248);
+}
+.navbar{
+    background-color: white;
+    margin-top: 0;
+    width: auto;
+    height: 80px;
+    box-shadow: 1px 2px 4px black;
+    position: sticky;
+}
+.navbar .left{
+    padding-top: 24px;
+    padding-left: 20px;
+    align-items: left;
+}
+.navbar .left .menu{
+    height: 30px;
+    width: auto;
+    padding-right: 10px;
+}
+.navbar .left .YT-Logo{
+    width: 150px;
+    height: auto;
+}
+.navbar .center{
+    margin-top: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .center .search{
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    border: 1px solid  rgb(169, 168, 168);
+}
+.navbar .center .search-icon{
+    margin-left: -40px;
+    background-color: rgba(241, 241, 241, 0.842);
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 20px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    cursor: pointer;
+}
+.navbar .center .microphone{
+    padding-left: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+.navbar .right{
+    position: sticky;
+    align-items: right;
+    margin-top: -40px;
+    margin-left: 1360px;
+
+}
+.navbar .right .video, .navbar .right .browse ,.navbar .right .notify{
+    height: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.navbar .right .user{
+    border-radius: 300px;
+    height: 30px;
+    cursor: pointer;
+}
+hr{
+    filter: blur(1px);
+}
+.left-menu{
+    background-color: white;
+    width: 300px;
+    height: auto;
+    box-shadow: 0.2px 0px 0px rgb(248, 247, 247);
+}
+.top{
+    width: 300px;
+    height: auto;
+    padding-top: 40px;
+}
+.left-menu .top a{
+    margin-left: 20px;
+    line-height: 3;
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+.left-menu .top a img{
+    height: 20px;
+}
+.left-menu .top .home{
+    background-color: gainsboro;
+    font-weight: bolder;
+}
+.left-menu .top a:hover{
+    color: red;
+}
+.left-menu .top h3{
+    margin-left: 20px;
+    color: rgb(98, 98, 98);
+    line-height: 2;
+    font-size: 20px;
+}
+.left-menu .top a .code{
+    border-radius: 300px;
+}
+.videos{
+    margin-left: 350px;
+    margin-top: -870px;
+}
+.container-div, .container-div-3{
+    position: sticky;
+    margin-left: 40px;
+}
+.videos .grid tr td .container-div .inner img,
+.videos .grid tr td .container-div-2 .inner img,
+.videos .grid tr td .container-div-3 .inner img,
+.videos .grid tr td .container-div-4 .inner img{
+    border-radius: 300px;
+    height: 40px;
+}
+.videos .grid tr td .container-div .inner .head,
+.videos .grid tr td .container-div-2 .inner .head,
+.videos .grid tr td .container-div-3 .inner .head,
+.videos .grid tr td .container-div-4 .inner .head{
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: -40px;
+}
+.videos .grid tr td .container-div .inner a,
+.videos .grid tr td .container-div-2 .inner a,
+.videos .grid tr td .container-div-3 .inner a,
+.videos .grid tr td .container-div-4 .inner a{
+    line-height: 2;
+    margin-left: 50px;
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+}
+.videos .grid tr td .container-div .inner .views,
+.videos .grid tr td .container-div-2 .inner .views,
+.videos .grid tr td .container-div-3 .inner .views,
+.videos .grid tr td .container-div-4 .inner .views{
+    color: grey;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.container-div-2, .container-div-4{
+    position: sticky;
+    margin-left: 660px;
+    margin-top: -360px;
+}
